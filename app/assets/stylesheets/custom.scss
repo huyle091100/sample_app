@@ -181,6 +181,7 @@
     .login{
         max-width: 450px;
         margin: 0 auto;
+        
     }
     @media (max-width: 800px) {
         footer {
@@ -198,4 +199,16 @@
                 }
             }
         }
+    }
+    .checkbox {
+        margin-top: -10px;
+        margin-bottom: 10px;
+        span {
+            margin-left: 20px;
+            font-weight: normal;
+        }
+    } 
+    #session_remember_me {
+        width: auto;
+        margin-left: 0;
     }
