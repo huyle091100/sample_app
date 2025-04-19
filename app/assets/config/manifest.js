@@ -4,3 +4,5 @@
     //= link_directory ../stylesheets .css
     //= link controllers/index.js
 //= link application.js
+//= link bootstrap.js
+//= link jquery.js
