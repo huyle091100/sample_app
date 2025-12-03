@@ -1,0 +1,8 @@
+// app/assets/stylesheets/application.scss
+
+// Thay đổi từ @import 'bootstrap';
+// Sửa thành đường dẫn tương đối (điều này chỉ hoạt động nếu bạn đang dùng trình biên dịch Sass/CSS hiện đại):
+@import "bootstrap/scss/bootstrap";
+
+/* Hoặc đôi khi chỉ cần: */
+// @import "~bootstrap/scss/bootstrap";
