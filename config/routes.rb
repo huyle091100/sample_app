@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
+  #root "application#home"
   get "static_pages/home"
   get "static_pages/help"
-  config.hosts.clear
+  get "static_pages/about"
 end
