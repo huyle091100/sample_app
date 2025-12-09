@@ -10,8 +10,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.1].define(version: 2025_12_09_033618) do
+ActiveRecord::Schema[8.1].define(version: 2025_12_09_041148) do
   create_table "users", charset: "utf8mb4", collation: "utf8mb4_0900_ai_ci", force: :cascade do |t|
+    t.boolean "activated", default: false
+    t.datetime "activated_at"
+    t.string "activation_digest"
     t.boolean "admin", default: false
     t.datetime "created_at", null: false
     t.string "email"
