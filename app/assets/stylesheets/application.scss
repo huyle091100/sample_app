@@ -14,6 +14,7 @@ $light-gray: #777;
 $gray-medium-light: #eaeaea;
 $gray: #555;
 $gray-darker: #222;
+$gray-lighter: #ddd;
 $state-danger-text: #a94442;
 
 body {
@@ -234,3 +235,13 @@ input {
     margin-left: 0;
 }
 
+/* Users index */
+.users {
+    list-style: none;
+    margin: 0;
+    li {
+        overflow: auto;
+        padding: 10px 0;
+        border-bottom: 1px solid $gray-lighter;
+    }
+}
